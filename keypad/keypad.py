@@ -26,8 +26,8 @@ class keypad():
                 ["*",0,"#","D"]
             ]
 
-            self.ROW         = [18,23,24,25]
-            self.COLUMN      = [4,17,22,21]
+            self.ROW         = [26,24,23,22]
+            self.COLUMN      = [21,19,10,20]
         else:
             return
      
