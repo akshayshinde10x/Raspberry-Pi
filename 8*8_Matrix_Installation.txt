@@ -1,0 +1,7 @@
+git clone https://github.com/rm-hull/max7219.git
+
+cd max7219
+
+sudo python setup.py install
+
+sudo python examples/view_messages.py
