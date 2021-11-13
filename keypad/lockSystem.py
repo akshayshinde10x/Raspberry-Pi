@@ -31,9 +31,9 @@ while True:
      
         print(seq)
         if seq == [1, 2, 3, 4, '#']:
-            print ("Code accepted")
+		print ("Code accepted")
         else:
-			print("Please try again !")
+		print("Please try again !")
     else:
         print("Wrong key is Pressed")
 
