@@ -14,7 +14,7 @@ while True:
     while digit == None:
         digit = kp.getKey()
     
-    print digit
+    print (digit)
     time.sleep(0.5)
  
     if(digit == '*'):
@@ -25,7 +25,7 @@ while True:
             while digit == None:
                 digit = kp.getKey()
                 
-            print digit
+            print (digit)
             seq.append(digit)
             time.sleep(0.4)
      
