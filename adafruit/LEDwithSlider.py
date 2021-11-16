@@ -16,6 +16,7 @@ pwm.start(status)
 
 while True:
 	status = aio.receive(slider_feed.key).value
+	print(status)
 	pwm.ChangeDutyCycle(int(status))
 	time.sleep(0.001)
 pwm.stop()                        
